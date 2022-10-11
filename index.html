@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="accueil" content="OhMyFood. Réservez et commander votre repas." >
+    <title>Accueil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+
+    <!-- En-tête -->
+    <header>
+        <h1 class="heading--font">ohmyfood</h1>
+        <div class="heading--search">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="search" value="Paris, Belleville"> 
+        </div>
+
+        <div id="heading__explore">     
+            <h2>Réservez le menu qui vous convient</h2>
+            <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
+            <button type="button">Explorer nos restaurants</button>
+        </div>
+    </header>
+
+    
+
+    <!-- Section Fonctionnement -->
+    <section id="section1">
+        <h2>Fonctionnement</h2>
+        <div class="section1__element">
+            <div class="section1__number--background"><div class="section1__number--font">1</div></div>
+            <i class="fa-solid fa-mobile-screen-button fa-lg"></i>
+            <p>Choisissez un restaurant</p>
+        </div>
+        <div class="section1__element">
+            <div class="section1__number--background"><div class="section1__number--font">2</div></div>
+            <i class="fa-solid fa-list-ul fa-lg"></i>
+            <p>Composez votre menu</p>
+        </div>
+        <div class="section1__element">
+            <div class="section1__number--background"><div class="section1__number--font">3</div></div>
+            <i class="fa-solid fa-store fa-lg"></i>
+            <p>Déguster au restaurant</p>
+        </div>
+    </section>
+
+    <!-- Section Restaurant -->
+    <section id="section2">
+        <h2>Restaurants</h2>
+        <div id="section2__alignement">
+            <div class="section2__element">
+            <a href="menu1.html">
+                <img class="section2__image" src="images/PaletteDuGout.jpg" alt="">
+                <div class="section2__text"><h3>La palette du goût</h3>
+                <p>Ménilmontant</p></div>
+                <div class="heart">
+                    <div class="empty"><img class="empty_heart" src="images/heart.png" alt=""></div>
+                    <div class="full"><img class="full_heart" src="images/heart.png" alt=""></div>
+                </div>
+                <div class="section2__element__label">Nouveau</div>
+            </a>
+            </div>
+
+            <div class="section2__element">
+            <a href="menu2.html">
+                <img class="section2__image" src="images/NoteEnchantee.jpg" alt="">
+                <h3>La note enchantée</h3>
+                <p>Charonne</p>
+                <div class="heart">
+                    <div class="empty"><img class="empty_heart" src="images/heart.png" alt=""></div>
+                    <div class="full"><img class="full_heart" src="images/heart.png" alt=""></div>
+                </div>
+                <div class="section2__element__label">Nouveau</div>
+            </a>
+            </div>
+            <div class="section2__element">
+            <a href="menu3.html">
+                <img class="section2__image" src="images/ALaFrançaise.jpg" alt="">
+                <h3>A la Française</h3>
+                <p>Cité Rouge</p>
+                <div class="heart">
+                    <div class="empty"><img class="empty_heart" src="images/heart.png" alt=""></div>
+                    <div class="full"><img class="full_heart" src="images/heart.png" alt=""></div>
+                </div>
+            </a>
+            </div>
+            <div class="section2__element">
+            <a href="menu4.html">
+                <img class="section2__image" src="images/DeliceDesSens.jpg" alt="">
+                <h3>Le délice des sens</h3>
+                <p>Folie-Méricourt</p>
+                <div class="heart">
+                    <div class="empty"><img class="empty_heart" src="images/heart.png" alt=""></div>
+                    <div class="full"><img class="full_heart" src="images/heart.png" alt=""></div>
+                </div>
+            </a>
+            </div>
+        </div>   
+        </section>
+
+    <!-- Pied de page -->
+    <footer>  
+        <div id="footer__position"> 
+            <h3>ohmyfood</h3>
+            <div><i class="fa-solid fa-utensils"></i>Proposer un restaurant</div>
+            <div><i class="fa-solid fa-handshake-angle"></i>Devenir Partenaire</div>
+            <div>Mentions légales</div>
+            <div><a href="adresse@ohmyfood.fr">Contact</a></div>  
+        </div>    
+    </footer>
+
+</body>
+</html>
