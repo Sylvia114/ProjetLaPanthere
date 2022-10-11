@@ -69,7 +69,10 @@ header {
 .heading--font {
   font-family: "Shrikhand", sans-serif;
   text-align: center;
-  height: 30px;
+  font-size: 34px;
+  height: 25px;
+  margin: 0;
+  padding-bottom: 22px;
 }
 
 /* Barre de recherche */
@@ -83,7 +86,7 @@ header {
 }
 
 .heading--search input {
-  width: 120px;
+  width: 140px;
   background-color: #EAEAEA;
   border: none;
   padding: 5px;
@@ -114,7 +117,7 @@ header {
 }
 
 #heading__explore button {
-  font-weight: bold;
+  font-size: 15px;
   color: white;
   background: linear-gradient(#FF79DA, #9356DC);
   border: 0;
@@ -130,6 +133,7 @@ header {
 /* Section Fonctionnement */
 #section1 {
   height: 280px;
+  padding-bottom: 10px;
 }
 
 #section1 h2 {
@@ -179,7 +183,7 @@ header {
 /* section Restaurants */
 #section2 {
   background-color: #F6F6F6;
-  padding-bottom: 30px;
+  padding-bottom: 45px;
 }
 
 #section2 h2 {
@@ -256,7 +260,7 @@ a {
 /* Footer */
 footer {
   color: white;
-  background-color: black;
+  background-color: #353535;
   padding-top: 5px;
   padding-bottom: 20px;
 }
@@ -297,13 +301,13 @@ footer a:hover {
 
 #menu__header {
   line-height: 0px;
-  height: 55px;
-  padding-top: 10px;
+  height: 30px;
+  padding-top: 23px;
 }
 
 #header__icon {
   position: relative;
-  top: 25px;
+  top: 4px;
 }
 
 .menu__head {
@@ -394,7 +398,7 @@ footer a:hover {
 }
 
 .price {
-  padding-right: 10px;
+  padding-right: 20px;
   position: relative;
   top: 13px;
   transition: transform 1s;
@@ -507,10 +511,11 @@ footer a:hover {
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: 50px;
+  bottom: 35px;
+  padding-bottom: 45px;
 }
 #menu_button button {
-  font-weight: bold;
+  font-size: 15px;
   color: white;
   background: linear-gradient(#FF79DA, #9356DC);
   border: 0;
