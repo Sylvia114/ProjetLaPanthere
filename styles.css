@@ -129,6 +129,10 @@ header {
   margin-top: 10px;
   cursor: pointer;
 }
+#heading__explore button:hover {
+  background: linear-gradient(rgba(255, 121, 217, 0.8156862745), #AA64FF);
+  box-shadow: 4px 4px 4px darkgray;
+}
 
 /* Section Fonctionnement */
 #section1 {
@@ -533,6 +537,10 @@ footer a:hover {
   padding-left: 20px;
   padding-right: 20px;
   cursor: pointer;
+}
+#menu_button button:hover {
+  background: linear-gradient(rgba(255, 121, 217, 0.8156862745), #AA64FF);
+  box-shadow: 4px 4px 4px darkgray;
 }
 
 /* Responsive design : taille d'écran ordinateur */
