@@ -15,13 +15,13 @@ footer {
 
 /* Loading spinner */
 @keyframes load {
-  from {
+  0% {
     opacity: 1;
   }
-  to {
+  100% {
     opacity: 0;
     display: none;
-    z-index: -100;
+    z-index: -10;
   }
 }
 #loading {
@@ -41,7 +41,7 @@ footer {
     transform: rotate(0deg);
     opacity: 1;
   }
-  100% {
+  80% {
     transform: rotate(360deg);
     opacity: 0;
   }
@@ -56,7 +56,7 @@ footer {
   left: 45%;
   top: 45%;
   animation-name: spin;
-  animation-duration: 1s;
+  animation-duration: 3s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -218,7 +218,7 @@ header {
   padding: 5px;
   text-align: center;
   position: relative;
-  left: 310px;
+  left: 60%;
   bottom: 280px;
   line-height: normal;
 }
@@ -235,7 +235,7 @@ a {
 .heart {
   position: relative;
   width: 50px;
-  left: 370px;
+  left: 70%;
   bottom: 45px;
 }
 
@@ -395,11 +395,13 @@ footer a:hover {
   transition: all 0.5s 0.2s;
 }
 .plats__element:hover .price {
+  padding-right: 15px;
   transform: translate(-5px, 0px);
 }
 
 .price {
   padding-right: 20px;
+  padding-left: 6px;
   position: relative;
   top: 13px;
   transition: transform 1s;
@@ -597,10 +599,9 @@ footer a:hover {
   .section2__element {
     width: 70%;
   }
-  .section2__element__label {
-    left: 390px;
-  }
-  .heart {
-    left: 480px;
+}
+@media screen and (max-width: 480px) {
+  .plats__element:hover .check {
+    width: 35%;
   }
 }/*# sourceMappingURL=styles.css.map */
