@@ -24,8 +24,8 @@ footer{
 /* Loading spinner */
 
 @keyframes load{
-    0% {opacity: 1;}
-    100% {opacity: 0; display: none; z-index: -10;} }
+    from {opacity: 1;}
+    to {opacity: 0; display: none; z-index: -10;} }
   
   #loading{
     width: 100%;
