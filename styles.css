@@ -391,7 +391,6 @@ footer a:hover {
   width: 25%;
 }
 .plats__element:hover .fa-circle-check {
-  display: visible;
   transform: rotate(360deg);
   transition: all 0.5s 0.2s;
 }
@@ -401,7 +400,6 @@ footer a:hover {
 
 .price {
   padding-right: 20px;
-  padding-left: 5px;
   position: relative;
   top: 13px;
   transition: transform 1s;
@@ -605,4 +603,4 @@ footer a:hover {
   .heart {
     left: 480px;
   }
-}
+}/*# sourceMappingURL=styles.css.map */
