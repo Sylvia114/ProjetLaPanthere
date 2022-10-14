@@ -640,4 +640,21 @@ footer a:hover{
         &:hover .check{
             width: 35%;}
         }  
-}   
+}
+
+@media screen and (max-width: 380px) {
+    .menu__head__element h2{
+      width: 70%;
+    }
+  
+    #text__overflow__menu3{
+      position: relative;
+      bottom: 70px;
+    }
+  
+    .plats {
+      position: relative;
+      bottom: 30px;
+    }
+  
+  }
