@@ -190,6 +190,10 @@ header {
   padding-top: 30px;
 }
 
+.section2__titre {
+  padding-left: 20px;
+}
+
 .section2__element {
   background-color: white;
   width: 90%;
@@ -218,7 +222,7 @@ header {
   padding: 5px;
   text-align: center;
   position: relative;
-  left: 60%;
+  left: 65%;
   bottom: 280px;
   line-height: normal;
 }
@@ -235,7 +239,7 @@ a {
 .heart {
   position: relative;
   width: 50px;
-  left: 70%;
+  left: 80%;
   bottom: 45px;
 }
 
@@ -589,6 +593,7 @@ footer a:hover {
     margin-right: auto;
   }
 }
+/* Responsive design: taille tablette */
 @media screen and (min-width: 769px) and (max-width: 992px) {
   #heading__explore {
     height: 250px;
@@ -600,7 +605,14 @@ footer a:hover {
     width: 70%;
   }
 }
+/* Responsive design: écran plus petit */
 @media screen and (max-width: 480px) {
+  .section2__element__label {
+    left: 60%;
+  }
+  .heart {
+    left: 85%;
+  }
   .plats__element:hover .check {
     width: 35%;
   }
