@@ -672,8 +672,6 @@ footer a:hover{
     .section2__element{
         width: 70%;
     }
-
-    
 }
 
 /* Responsive design: écran plus petit */
@@ -689,8 +687,6 @@ footer a:hover{
         &:hover .check{
             width: 35%;}
     }  
-
-
 }   
 
 @media screen and (max-width: 380px) {
@@ -712,5 +708,4 @@ footer a:hover{
         position: relative;
         top: 5px;
         padding-bottom: 60px;}
-  
   }
