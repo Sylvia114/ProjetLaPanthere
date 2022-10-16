@@ -500,7 +500,7 @@ footer a:hover {
 @keyframes element1 {
   0% {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(8px);
   }
   25% {
     opacity: 1;
@@ -510,7 +510,7 @@ footer a:hover {
 @keyframes element2 {
   0% {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(8px);
   }
   50% {
     opacity: 1;
@@ -520,7 +520,7 @@ footer a:hover {
 @keyframes element3 {
   0% {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(8px);
   }
   75% {
     opacity: 1;
@@ -530,7 +530,7 @@ footer a:hover {
 @keyframes element4 {
   0% {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(8px);
   }
   100% {
     opacity: 1;
@@ -540,25 +540,29 @@ footer a:hover {
 .plat--anim1 {
   display: flex;
   animation-name: element1;
-  animation-duration: 4s;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 
 .plat--anim2 {
   display: flex;
   animation-name: element2;
-  animation-duration: 4s;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 
 .plat--anim3 {
   display: flex;
   animation-name: element3;
-  animation-duration: 4s;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 
 .plat--anim4 {
   display: flex;
   animation-name: element4;
-  animation-duration: 4s;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
 }
 
 /* Boutton "Commander" */

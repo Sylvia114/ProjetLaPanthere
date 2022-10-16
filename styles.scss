@@ -507,47 +507,51 @@ footer a:hover{
 /* Transition sur les plats */
 
 @keyframes element1 {
-    0% {opacity: 0; transform: translateY(10px);}
+    0% {opacity: 0; transform: translateY(8px);}
     25% {opacity: 1; transform: translateY(0px);}
 }
 
 @keyframes element2{
-    0% {opacity: 0; transform: translateY(10px);}
+    0% {opacity: 0; transform: translateY(8px);}
     50% {opacity: 1; transform: translateY(0px);}
 }
 
 @keyframes element3{
-    0% {opacity: 0; transform: translateY(10px);}
+    0% {opacity: 0; transform: translateY(8px);}
     75% {opacity: 1; transform: translateY(0px);}
 }
 
 @keyframes element4{
-    0% {opacity: 0; transform: translateY(10px);}
+    0% {opacity: 0; transform: translateY(8px);}
     100% {opacity: 1; transform: translateY(0px);}
 }
 
 .plat--anim1{
     display: flex;
     animation-name: element1;
-    animation-duration: 4s;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
 }
 
 .plat--anim2{
     display: flex;
     animation-name: element2;
-    animation-duration: 4s;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
 }
 
 .plat--anim3{
     display: flex;
     animation-name: element3;
-    animation-duration: 4s;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
 }
 
 .plat--anim4{
     display: flex;
     animation-name: element4;
-    animation-duration: 4s;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
 }
 
 /* Boutton "Commander" */
@@ -634,6 +638,8 @@ footer a:hover{
         padding-left: 80px;
     }
 
+
+
     /* Page Menu */
 
     #menu__header{
@@ -666,6 +672,8 @@ footer a:hover{
     .section2__element{
         width: 70%;
     }
+
+    
 }
 
 /* Responsive design: écran plus petit */
@@ -681,6 +689,8 @@ footer a:hover{
         &:hover .check{
             width: 35%;}
     }  
+
+
 }   
 
 @media screen and (max-width: 380px) {
@@ -702,4 +712,5 @@ footer a:hover{
         position: relative;
         top: 5px;
         padding-bottom: 60px;}
+  
   }
