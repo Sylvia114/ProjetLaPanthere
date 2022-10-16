@@ -226,8 +226,8 @@ header {
   padding: 5px;
   text-align: center;
   position: relative;
-  left: 65%;
-  bottom: 280px;
+  left: 72%;
+  bottom: 230px;
   line-height: normal;
 }
 
@@ -242,27 +242,59 @@ a {
 
 .heart {
   position: relative;
-  width: 50px;
-  left: 80%;
+  width: 25px;
+  height: 25px;
+  left: 86%;
+  bottom: 72px;
+}
+
+.heart2 {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  left: 86%;
   bottom: 45px;
 }
 
-.full_heart {
-  width: 30px;
+.heart_empty {
+  font-size: 26px;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.heart_full {
+  font-size: 26px;
   position: relative;
-  bottom: 25px;
+  bottom: 26px;
   opacity: 0;
+  color: transparent;
   background: white;
   transition: opacity 1s, background 2s;
+  cursor: pointer;
 }
 
-.empty_heart {
-  width: 30px;
-}
-
-.heart:hover .full_heart {
-  background: linear-gradient(#9356DC, #FF79DA);
+.heart:hover .heart_full {
   opacity: 1;
+  color: transparent;
+  background: linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.heart:hover .heart_empty {
+  opacity: 0;
+}
+
+.heart2:hover .heart_full {
+  opacity: 1;
+  color: transparent;
+  background: linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.heart2:hover .heart_empty {
+  opacity: 0;
 }
 
 /* Footer */
@@ -338,28 +370,40 @@ footer a:hover {
 }
 
 .menu__heart {
+  width: 35px;
+  height: 35px;
   position: relative;
   right: 10px;
-  top: 20px;
   cursor: pointer;
 }
 
-.empty_heart2 {
-  width: 31px;
+.menu_heart_empty {
+  font-size: 30px;
+  opacity: 1;
+  transition: opacity 0.5s;
 }
 
-.full_heart2 {
-  width: 31px;
+.menu_heart_full {
+  font-size: 30px;
   position: relative;
   bottom: 34px;
   opacity: 0;
+  color: transparent;
   background: white;
   transition: opacity 1s, background 2s;
+  cursor: pointer;
 }
 
-.menu__heart:hover .full_heart2 {
-  background: linear-gradient(#9356DC, #FF79DA);
+.menu__heart:hover .menu_heart_full {
   opacity: 1;
+  color: transparent;
+  background: linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.menu__heart:hover .menu_heart_empty {
+  opacity: 0;
 }
 
 /* Page MENU Entrées/plats/desserts */
@@ -636,5 +680,10 @@ footer a:hover {
   .plats {
     position: relative;
     bottom: 30px;
+  }
+  #menu_button {
+    position: relative;
+    top: 5px;
+    padding-bottom: 60px;
   }
 }/*# sourceMappingURL=styles.css.map */
