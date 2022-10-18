@@ -843,7 +843,7 @@ h4 {
 .footer-ul li{
     width: 150px;
     height: 17px;
-    padding: 10px;
+    margin-top: 10px;
 }
 
 @media (max-width: 1024px) {
