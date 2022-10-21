@@ -257,6 +257,7 @@ body {
   }
   .navbar-brand img {
     max-height: 200px;
+    width: auto;
     margin: 0 5px 0 0;
     display: inline;
   }
@@ -845,7 +846,7 @@ body {
       box-shadow: none;
     }
     .navbar-brand img {
-      max-height: 40px;
+      height: 40px;
       width: auto;
     }
     .nav-invert .navbar-header {
