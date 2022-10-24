@@ -283,6 +283,11 @@ a:hover {
   float: right;
   position: relative;
 }
+
+.tap_size{
+  height: 48px;
+}
+
 @media (min-width: 768px) {
   .site-navigation {
     position: absolute;
